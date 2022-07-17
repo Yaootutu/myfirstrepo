@@ -1,0 +1,35 @@
+ul.info>li {
+    list-style: none;
+}
+
+ul.info>li li:nth-child(2) {
+    list-style: none;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+ol li a[target='_blank'] {
+    color: rgb(1, 76, 1);
+}
+
+ol li a[href="https://www.google.com/"] {
+    background-color: rgb(137, 137, 240);
+}
+
+ol li a[href*="google"] {
+    color: pink;
+}
+
+/* ol li a[href^="https"] {
+    color: rgb(57, 57, 124);
+} */
+
+ol li a[href$=".com.au"] {
+    background-color: rgb(151, 99, 191);
+}
+
+ol li a[href*="google"][href$=".com.au"] {
+    font-style: italic;
+}
